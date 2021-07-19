@@ -1,10 +1,141 @@
+$main-light-blue:  rgba(217, 241, 247, 0.8);
 
 
 .skillsSection{
-    width: 40rem;
+    margin: 5rem 5rem 5rem 5rem;
+    padding: 5rem 1rem 1rem 1rem;
+    width: 500rem;
     .card {
         display: flex;
     }
 }
 
 
+.skillCard {
+    flex-wrap: wrap;
+    display: flex;
+    height: fit-content;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+    border-radius: 10px;
+    margin: 0 0 2rem 0;
+    overflow: hidden;
+    position: relative;
+    color: #000000;
+    cursor: pointer;
+    
+    &.dark {
+      background-color: #18151f;
+    }
+    &.light {
+      background-color: #0053b8;
+    }
+  
+    .t-dark {
+      color: #18151f;
+    }
+  
+    a {
+      color: inherit;
+    }
+  
+    h1,
+    .h1 {
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+  
+    .small {
+      font-size: 80%;
+    }
+  
+    .postcard__title {
+      font-size: 1.75rem;
+    }
+  
+    .postcard__img {
+      max-height: 180px;
+      width: 100%;
+      object-fit: cover;
+      position: relative;
+    }
+  
+    .postcard__img_link {
+      display: contents;
+    }
+  
+    .postcard__bar {
+      width: 50px;
+      height: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      background-color: #424242;
+      transition: width 0.2s ease;
+    }
+  
+    .postcard__text {
+      font-family: "Baloo 2", cursive;
+      padding: 1.5rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .postcard__preview-txt {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: justify;
+      height: 100%;
+    }
+  
+    .postcard__tagbox {
+      display: flex;
+      flex-flow: row wrap;
+      font-size: 14px;
+      margin: 20px 0 0 0;
+      padding: 0;
+      justify-content: center;
+  
+      .tag__item {
+        display: inline-block;
+        background: rgba(83, 83, 83, 0.4);
+        border-radius: 3px;
+        padding: 2.5px 10px;
+        margin: 0 5px 5px 0;
+        cursor: default;
+        user-select: none;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background: rgba(83, 83, 83, 0.8);
+        }
+      }
+    }
+    .postcard__codelinks {
+      display: flex;
+      flex-flow: row wrap;
+      font-size: 14px;
+      margin: 20px 0 0 0;
+      padding: 0;
+      justify-content: center;
+  
+      .tag__item {
+        display: inline-block;
+        background: rgba(83, 83, 83, 0.4);
+        border-radius: 3px;
+        padding: 2.5px 10px;
+        margin: 0px 2px 0px 0px;
+        cursor: default;
+        user-select: none;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background: $main-light-blue
+        }
+      }
+    }
+}
+
+.skillCard:hover {
+    background-color: $main-light-blue;
+}

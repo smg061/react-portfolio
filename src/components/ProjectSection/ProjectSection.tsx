@@ -41,12 +41,14 @@ const projects = [
 const ProjectSection: React.FC = () => {
   return (
     <Container className="projectSection">
+       <br></br>
       <Jumbotron>
         <h1>
           <strong>My projects</strong>
         </h1>
         <h4>See something interesting? </h4>
       </Jumbotron>
+      <br></br>
       <Row>
         {projects.map((project) => (
           <Col lg={6}>

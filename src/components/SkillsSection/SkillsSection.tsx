@@ -13,15 +13,49 @@ const SkillsSection = () => {
       </Jumbotron>
       <Row>
         <Col>
-          <Card>
-            <Card.Header> Front End Development</Card.Header>     
-         </Card>
+          <Card className="skillCard">
+            <Card.Body>
+              <div className="media d-flex">
+                <div className="align-self-center">
+                  <i className="fa fa-pencil"></i>
+                </div>
+                <div className="media-body text-right">
+                  <h3>Front End Development</h3>
+                  <span>HTML, CSS, Javascript, Typescript, React</span>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
         </Col>
         <Col>
-          <Card>henlo</Card>
+        <Card className="skillCard">
+            <Card.Body>
+              <div className="media d-flex">
+                <div className="align-self-center">
+                  <i className="fa fa-pencil"></i>
+                </div>
+                <div className="media-body text-right">
+                  <h3>Back End Development</h3>
+                  <span>Node.js, Express.js, C#, .NET, ASP.NET Web API</span>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
         </Col>
         <Col>
-          <Card>henlo</Card>
+        <Card className="skillCard">
+            <Card.Body>
+              <div className="media d-flex">
+                <div className="align-self-center">
+                  <i className="fa fa-pencil"></i>
+                </div>
+                <div className="media-body text-right">
+                  <h3>Front End Development</h3>
+                  <span>HTML, CSS, Javascript, Typescript, React</span>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
         </Col>
       </Row>
     </Container>
