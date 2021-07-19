@@ -8,8 +8,8 @@ $main-red: #bd150b !default;
 $main-red-rgb-015: rgba(189, 21, 11, 0.1) !default;
 $main-blue: #0076bd !default;
 $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
+$main-light-blue:  rgba(152, 220, 236, 0.8);
 
-/* This pen */
 projectBody {
   font-family: "Baloo 2", cursive;
   font-size: 16px;
@@ -40,6 +40,42 @@ a:hover {
 }
 
 /* Cards */
+
+// card enter animation
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+
+    transform: rotateZ(280deg);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+i:hover {
+  animation: fadein;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+
+}
+i {
+  margin-right :5px;
+}
+// .projectBody:hover {
+//   animation-name: fadein;
+//   animation-duration: 1s;
+//   animation-fill-mode: forwards;
+// }
+
+@media (prefers-reduced-motion: no-preference) {
+  .enter-animation {
+    animation: wipe-enter 1s 1;
+  }
+}
+
+
+
 .postcard {
   flex-wrap: wrap;
   display: flex;
@@ -136,6 +172,29 @@ a:hover {
 
       &:hover {
         background: rgba(83, 83, 83, 0.8);
+      }
+    }
+  }
+  .postcard__codelinks {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    justify-content: center;
+
+    .tag__item {
+      display: inline-block;
+      background: rgba(83, 83, 83, 0.4);
+      border-radius: 3px;
+      padding: 2.5px 10px;
+      margin: 0px 2px 0px 0px;
+      cursor: default;
+      user-select: none;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background: $main-light-blue
       }
     }
   }
