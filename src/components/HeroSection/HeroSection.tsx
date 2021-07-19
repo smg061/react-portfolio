@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Jumbotron, Row } from 'react-bootstrap'
-
+import './HeroSection.scss'
 interface Props {
     title: String
 }
