@@ -11,20 +11,13 @@
 
 body {
   font-family: "Roboto Condensed";
+  background-color: rgba(223, 196, 196, 0.13);
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .navbar {
   justify-content: right;

@@ -8,7 +8,7 @@ $main-red: #bd150b !default;
 $main-red-rgb-015: rgba(189, 21, 11, 0.1) !default;
 $main-blue: #0076bd !default;
 $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
-$main-light-blue:  rgba(152, 220, 236, 0.8);
+$main-light-blue: rgba(152, 220, 236, 0.8);
 
 projectBody {
   font-family: "Baloo 2", cursive;
@@ -57,10 +57,9 @@ i:hover {
   animation: fadein;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-
 }
 i {
-  margin-right :5px;
+  margin-right: 5px;
 }
 // .projectBody:hover {
 //   animation-name: fadein;
@@ -73,8 +72,6 @@ i {
     animation: wipe-enter 1s 1;
   }
 }
-
-
 
 .postcard {
   flex-wrap: wrap;
@@ -100,6 +97,7 @@ i {
 
   a {
     color: inherit;
+    font-size: 20px;
   }
 
   h1,
@@ -178,9 +176,8 @@ i {
   .postcard__codelinks {
     display: flex;
     flex-flow: row wrap;
-    font-size: 14px;
-    margin: 20px 0 0 0;
-    padding: 0;
+    margin: 40px 0 0 0;
+    padding: 10px;
     justify-content: center;
 
     .tag__item {
@@ -188,13 +185,15 @@ i {
       background: rgba(83, 83, 83, 0.4);
       border-radius: 3px;
       padding: 2.5px 10px;
-      margin: 0px 2px 0px 0px;
+      margin: 5px 2px 0px 0px;
+      width: fit-content !important;
+      height: fit-content !important;
       cursor: default;
       user-select: none;
       transition: background-color 0.3s;
-
+      justify-content: center;
       &:hover {
-        background: $main-light-blue
+        background: $main-light-blue;
       }
     }
   }

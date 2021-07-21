@@ -10,6 +10,7 @@ import ProjectSection from "./components/ProjectSection/ProjectSection";
 import { Row, Col, Container } from "react-bootstrap";
 import Footer from "./components/Footer/Footer";
 import SkillsSection from "./components/SkillsSection/SkillsSection";
+import ProfileSection_test from "./components/ProfileSection/ProfileSection_test";
 
 function App() {
    return (
@@ -17,9 +18,11 @@ function App() {
          <Container fluid="md">
             <NavigationBar />
             <HeroSection title={"henlo"} />
-            <ProfileSection />
          </Container>
+         <ProfileSection_test />
+         <Container>
          <SkillsSection/>
+         </Container>
          <ProjectSection />
          <Footer/>
       </div>

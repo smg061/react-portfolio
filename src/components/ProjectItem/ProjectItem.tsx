@@ -23,7 +23,7 @@ const ProjectItem: React.FC<Props> = ({
     <div className="projectBody">
       <article className="postcard dark blue">
         <a className="postcard__img_link" href="#">
-          <img className="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
+          <img className="postcard__img" src={image} alt="Image Title" />
         </a>
         <div className="postcard__text">
           <h1 className="postcard__title blue">

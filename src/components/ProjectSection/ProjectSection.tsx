@@ -7,15 +7,15 @@ const projects = [
   {
     title: "The TechBlog",
     description: "Share your opinions about the latest tech",
-    image: "",
-    githubLink: "",
+    image: "https://res.cloudinary.com/theplugselect/image/upload/v1626907789/Screenshot_2021-07-21_at_17-48-09_The_Techblog_homepage_bqnrcm.png",
+    githubLink: "https://github.com/smg061/techblog",
     deployedLink: "",
     technologies: ["Javascript", "Express.js", "SQL", "Node.js"],
   },
   {
     title: "The Plug Select",
     description: "Bid for premium goods",
-    image: "",
+    image: "https://res.cloudinary.com/theplugselect/image/upload/v1626907789/Screenshot_2021-07-21_at_17-46-39_The_Plug_Select_jgk4po.png",
     githubLink: "",
     deployedLink: "",
     technologies: ["Python", "SQL", "Node.js"],
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Fitness Tracker",
     description: "",
-    image: "",
+    image: "https://res.cloudinary.com/theplugselect/image/upload/v1626907789/Screenshot_2021-07-21_at_17-49-23_Fitness_Chart_eztgss.png",
     githubLink: "",
     deployedLink: "",
     technologies: ["Python", "SQL", "Node.js"],
@@ -31,7 +31,7 @@ const projects = [
   {
     title: "Budget Tracker",
     description: "",
-    image: "",
+    image: "https://res.cloudinary.com/theplugselect/image/upload/v1626907789/Screenshot_2021-07-21_at_17-48-38_Budget_Tracker_fwvhmx.png",
     githubLink: "",
     deployedLink: "",
     technologies: ["Python", "SQL", "Node.js"],
@@ -47,6 +47,7 @@ const ProjectSection: React.FC = () => {
           <strong>My projects</strong>
         </h1>
         <h4>See something interesting? </h4>
+        <hr></hr>
       </Jumbotron>
       <br></br>
       <Row>
