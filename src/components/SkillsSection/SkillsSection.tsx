@@ -10,6 +10,7 @@ const SkillsSection = () => {
           <strong>Skills</strong>
         </h1>
         <h4>What can I do for you? </h4>
+        <hr></hr>
       </Jumbotron>
       <Container>
         <Row xs={6}>

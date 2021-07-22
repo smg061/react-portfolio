@@ -12,6 +12,7 @@
 body {
   font-family: "Roboto Condensed";
   background-color: rgba(223, 196, 196, 0.13);
+  color: #212529 !important
 }
 
 .App-link {

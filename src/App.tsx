@@ -19,10 +19,10 @@ function App() {
             <NavigationBar />
             <HeroSection title={"henlo"} />
          </Container>
+         
          <ProfileSection_test />
-         <Container>
+         <hr></hr>
          <SkillsSection/>
-         </Container>
          <ProjectSection />
          <Footer/>
       </div>
