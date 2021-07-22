@@ -1,25 +1,40 @@
 import React from "react";
-import './Footer.scss'
+import { Button } from "react-bootstrap";
+import "./Footer.scss";
 const Footer = () => {
   return (
     <div>
       <div className="mt-5 pt-5 pb-5 footer">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 col-xs-12 about-company">
-              <h2>Heading</h2>
-              <p className="pr-5 text-white-50">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique
-                convallis{" "}
-              </p>
-              <p>
-                <a href="#">
-                <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#">
-                  <i className="fa fa-linkedin-square"></i>
-                </a>
-              </p>
+            <div className="col-lg-5 col-xs-12 contact-me">
+              <div>
+                <form role="form">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="user_name"
+                      placeholder="Enter your name"
+                    ></input>
+                  </div>
+                  <div className="form-group">
+                    <input
+                      type="email"
+                      className="form-control"
+                      id="your_email"
+                      placeholder="Enter your email"
+                    ></input>
+                  </div>
+                  <div className="form-group">
+                    <textarea name="InputMessage" id="user_message" className="form-control" placeholder="Enter your message"></textarea>
+                  </div>
+                  <Button type="submit" className="btn medium">
+                    <i className="fa fa-envelope-o fa-xs"></i>
+                    Send Email
+                  </Button>
+                </form>
+              </div>
             </div>
             <div className="col-lg-3 col-xs-12 links">
               <h4 className="mt-lg-0 mt-sm-3">Links</h4>

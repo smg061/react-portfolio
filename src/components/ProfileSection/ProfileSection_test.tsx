@@ -1,6 +1,9 @@
 import React from "react";
-import { Row, Col, Container, Jumbotron, Image as Img, Button, Form } from "react-bootstrap";
+import { Row, Col, Container, Jumbotron, Image as Img, Button } from "react-bootstrap";
 import "./ProfileSection.scss";
+
+import profilePic from '../../assets/images/portrait.jpg';
+
 
 const styles = {
   h1: {
@@ -8,9 +11,7 @@ const styles = {
   },
 };
 
-interface Props {
 
-}
 const ProfileSection_test: React.FC = () => {
   return (
     <Container fluid className="profileSection">
@@ -26,7 +27,7 @@ const ProfileSection_test: React.FC = () => {
         Santos Gonzalez, Full-Stack Developer
         <Row className="justify-content-md-center">
           <Col className="portrait" lg={{ span: 4 }} md={10}>
-            <Img rounded src="/images/portrait.jpg"></Img>
+            <Img rounded src={profilePic}></Img>
           </Col>
           <Col lg={{ span: 8 }} className="biographyCol">
             <h2> <strong>A little bit about me...</strong></h2>
@@ -36,7 +37,7 @@ const ProfileSection_test: React.FC = () => {
               Express.js, React, .Net MySQL, and MongoDB databases. Excellent at self-teaching and motivated
               to learn, grow, and excel in tech industry. 
             </p>
-            <a className="button" download="santos_gonzalez_resume.docx" href="/gonzalez_resume_updated.docx"> Get my resume</a>
+            <Button as="a" className="button" download="santos_gonzalez_resume.docx" href="https://smg061.github.io/react-portfolio/gonzalez_resume_updated.docx">Get my resume</Button>
           </Col>
         </Row>
       </Jumbotron>

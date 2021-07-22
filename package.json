@@ -1,6 +1,6 @@
 {
-  "name": "bootstrap-react-portfolio",
-  "homepage": "http://smg061.github.io/bootstrap-react-portfolio",
+  "name": "react-portfolio",
+  "homepage": "http://smg061.github.io/react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

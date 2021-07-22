@@ -1,7 +1,8 @@
 import React from "react";
 import { Row, Col, Container, Jumbotron, Image as Img } from "react-bootstrap";
 import "./ProfileSection.scss";
-
+import logo from '../../assets/logo192.png'
+import profilePic from '../../assets/images/portrait.jpg';
 const styles = {
   h1: {
     fontSize: "4rem",
@@ -17,12 +18,12 @@ const ProfileSection: React.FC = () => {
           style={{
             fontSize: "4rem",
             backgroundImage:
-              " linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(/images/test.jpg)",
+              " linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(../../assets/images/test.jpg)",
           }}
         >
           Santos Gonzalez, Web Designer
           <Col>
-            <Img rounded src="/images/home.jpg"></Img>
+            <Img rounded src={logo}></Img>
           </Col>
           <Col lg >
             <p>
