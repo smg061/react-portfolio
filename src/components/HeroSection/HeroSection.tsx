@@ -5,7 +5,6 @@ interface Props {
     title: String
 }
 
-
 const HeroSection: React.FC<Props> = ({title}: Props) => {
     return (
         <Jumbotron>

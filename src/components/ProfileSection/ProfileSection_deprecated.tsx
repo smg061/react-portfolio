@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col, Container, Jumbotron, Image as Img } from "react-bootstrap";
 import "./ProfileSection.scss";
 import logo from '../../assets/logo192.png'
-import profilePic from '../../assets/images/portrait.jpg';
 const styles = {
   h1: {
     fontSize: "4rem",

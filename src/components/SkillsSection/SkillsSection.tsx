@@ -4,7 +4,7 @@ import "./SkillsSection.scss";
 
 const SkillsSection = () => {
   return (
-    <Container className="skillsSection">
+    <Container className="skillsSection" id="skills">
       <Jumbotron>
         <h1>
           <strong>Skills</strong>
@@ -23,7 +23,8 @@ const SkillsSection = () => {
                   </div>
                   <div className="media-body text-right">
                     <h3>Front End Development</h3>
-                    <span>HTML, CSS, Javascript, Typescript, React</span>
+                    <h5>Responsive UI design with:</h5>
+                    <span>HTML, CSS, SCSS, Javascript, Typescript, React</span>
                   </div>
                 </div>
               </Card.Body>
@@ -38,7 +39,8 @@ const SkillsSection = () => {
                   </div>
                   <div className="media-body text-right">
                     <h3>Back End Development</h3>
-                    <span>Node.js, Express.js, C#, .NET, ASP.NET Web API</span>
+                    <h5>Robust and scalable data delivery with:</h5>
+                    <span>Node.js, Express.js, C#, .NET, ASP.NET Web API, MySQL, MongoDB</span>
                   </div>
                 </div>
               </Card.Body>

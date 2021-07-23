@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { isTemplateExpression } from "typescript";
+import React from "react";
 import "./ProjectItem.scss";
 
 interface Props {
