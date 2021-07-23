@@ -4,7 +4,7 @@ import "./SkillsSection.scss";
 
 const SkillsSection = () => {
   return (
-    <Container className="skillsSection" id="skills">
+    <Container fluid className="skillsSection" id="skills">
       <Jumbotron>
         <h1>
           <strong>Skills</strong>

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 #root {
-  --primary-white: #fff
+  --primary-white: #fff;
 }
 
 .App {
@@ -11,7 +11,7 @@
 
 body {
   font-family: "Roboto Condensed";
-  background-color: rgba(223, 196, 196, 0.13);
+  background-color: rgba(230, 225, 225, 0.13);
   color: #212529 !important
 }
 

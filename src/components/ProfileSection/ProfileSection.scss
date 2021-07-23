@@ -1,14 +1,15 @@
+$main-light-blue: rgba(77, 204, 233, 0.966);
+$main-dark-blue: rgba(12, 205, 248, 0.966);
+
+
 .profileSection {
+   background-color: #fff;
    padding-top: 15px;
    height: auto;
 
    .jumbotron {
       font-size: 4rem;
-      background-image: linear-gradient(
-         to bottom,
-         rgba(165, 24, 24, 0.6) 0%,
-         rgba(255, 255, 255, 1) 100%
-      );
+     
    }
 
    .portrait {
@@ -39,18 +40,18 @@
 }
 
 .button {
-   background-color: rgb(77, 73, 73);
-   border-color: rgb(77, 73, 73);
+   background-color: $main-light-blue;
+   border-color: $main-light-blue
 }
 
-a::hover {
-  background-color: bisque;
- transform: scale(3);
-}
-button::hover {
-   transform: scale(1.1)!important;
+.button:hover {
+     background-color: $main-dark-blue;
+     border-color: $main-dark-blue;
+        transform: scale(1.1)!important;
+
 
 }
+
 .social {
    padding-top: 10px;
    align-items: center;

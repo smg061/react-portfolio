@@ -19,7 +19,7 @@ const ProfileSection_test: React.FC = () => {
             style={{
                fontSize: "4rem",
                backgroundImage:
-                  " linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(https://smg061.github.io/react-portfolio/images/test.jpg)",
+                  " linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(https://smg061.github.io/react-portfolio/images/test.jpewwg)",
             }}
          >
             Santos Gonzalez, Full-Stack Developer

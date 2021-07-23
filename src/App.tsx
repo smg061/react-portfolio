@@ -8,6 +8,7 @@ import { Container } from "react-bootstrap";
 import Footer from "./components/Footer/Footer";
 import SkillsSection from "./components/SkillsSection/SkillsSection";
 import ProfileSection_test from "./components/ProfileSection/ProfileSection_test";
+import ServicesSection from "./components/ServicesSection/ServicesSection";
 
 function App() {
    return (
@@ -16,12 +17,12 @@ function App() {
             <NavigationBar />
             <HeroSection title={"henlo"} />
          </Container>
-         
+
          <ProfileSection_test />
          <hr></hr>
-         <SkillsSection/>
+         <ServicesSection/>
          <ProjectSection />
-         <Footer/>
+         <Footer />
       </div>
    );
 }

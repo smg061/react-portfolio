@@ -44,7 +44,7 @@ const Footer = () => {
                   </div>
                   <Col lg={6} xs={12} className="location">
                      <h4 className="mt-lg-0 mt-sm-4">Let's get social</h4>
-                     <p>Follow me at </p>
+                     <p>Follow me at: </p>
                      <a href="https://www.github.com/smg061">
                         <i className="fa fa-github fa-md "></i>
                      </a>

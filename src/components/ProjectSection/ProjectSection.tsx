@@ -40,14 +40,16 @@ const projects = [
 
 const ProjectSection: React.FC = () => {
    return (
-      <Container className="projectSection" id="projects">
+      <Container fluid className="projectSection" id="projects">
          <br></br>
          <Jumbotron>
-            <h1>
-               <strong>My projects</strong>
-            </h1>
-            <h4>See something interesting? </h4>
-            <hr></hr>
+            <div className="service-head one text-center ">
+               <h4>See my latest work</h4>
+               <h3>
+                  <strong>My Projects</strong>
+               </h3>
+               <span className="border two"></span>
+            </div>
          </Jumbotron>
          <br></br>
          <Row>
