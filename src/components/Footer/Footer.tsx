@@ -35,7 +35,7 @@ const Footer = () => {
                                  placeholder="Enter your message"
                               ></textarea>
                            </div>
-                           <Button type="submit" className="btn medium">
+                           <Button  as="a" href="mailto:max.go.95@gmail.com" type="submit" className="btn medium">
                               <i className="fa fa-envelope-o fa-xs"></i>
                               Send Email
                            </Button>
