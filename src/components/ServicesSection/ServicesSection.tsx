@@ -1,11 +1,11 @@
 import React from "react";
-import { Col, Container, Jumbotron, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import "./ServicesSection.scss";
 
 const ServicesSection: React.FC= () => {
    return (
       <Container fluid id="services" className="services">
-         <div className="container">
+         <div id="skills" className="container">
             <div className="service-head one text-center ">
                <h4>What can I do for you?</h4>
                <h3>
@@ -22,7 +22,10 @@ const ServicesSection: React.FC= () => {
                   </div>
                   <div className="col-xs-8 wthree_about_right_grid_right">
                      <h4>Web Design</h4>
-                     <p>Responsive, mobile-first design with HTML5, CSS, SCSS, Bootstrap and Semantic-UI</p>
+                     <p>
+                        Responsive, mobile-first design with HTML5, CSS, SCSS, Bootstrap
+                        and Semantic-UI
+                     </p>
                   </div>
                   <div className="clearfix"> </div>
                </div>
@@ -34,7 +37,11 @@ const ServicesSection: React.FC= () => {
                   </div>
                   <div className="col-xs-8 wthree_about_right_grid_right">
                      <h4>Front End Development</h4>
-                     <p> Modern UI and Front end scripting with Javascript, Typescript, and React.</p>
+                     <p>
+                        {" "}
+                        Modern UI and Front end scripting with Javascript, Typescript, and
+                        React.
+                     </p>
                   </div>
                   <div className="clearfix"> </div>
                </div>
@@ -47,8 +54,8 @@ const ServicesSection: React.FC= () => {
                   <div className="col-xs-8 wthree_about_right_grid_right">
                      <h4>Back End development</h4>
                      <p>
-                         Robust, scalable back end solutions with Node.js, Express.js, C#, .NET, and ASP.NET Web API
-
+                        Robust, scalable back end solutions with Node.js, Express.js, C#,
+                        .NET, and ASP.NET Web API
                      </p>
                   </div>
                   <div className="clearfix"> </div>
@@ -61,9 +68,7 @@ const ServicesSection: React.FC= () => {
                   </div>
                   <div className="col-xs-8 wthree_about_right_grid_right">
                      <h4>Database Design</h4>
-                     <p>
-                         Using MySQL and MongoDB
-                     </p>
+                     <p>Using MySQL and MongoDB</p>
                   </div>
                   <div className="clearfix"> </div>
                </div>

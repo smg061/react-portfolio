@@ -9,7 +9,7 @@ const Footer = () => {
                <div className="row">
                   <div className="col-lg-6 col-xs-12 contact-me">
                      <div>
-                        <h3> Send me a message, let's work together</h3>
+                        <h3> Send me a message</h3>
                         <form role="form">
                            <div className="form-group">
                               <input

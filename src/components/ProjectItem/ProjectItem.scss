@@ -315,13 +315,14 @@ i {
 }
 
 .postcard .postcard__tagbox .blue.play:hover {
-  background: $main-blue;
+  background: $main-light-blue;
+
 }
 .blue .postcard__title:hover {
-  color: $main-blue;
+  color: $main-light-blue;
 }
 .blue .postcard__bar {
-  background-color: $main-blue;
+  background-color: $main-light-blue;
 }
 .blue::before {
   background-image: linear-gradient(-30deg, $main-blue-rgb-015, transparent 50%);

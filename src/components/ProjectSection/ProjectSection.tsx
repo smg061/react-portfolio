@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectItem from "../ProjectItem/ProjectItem";
-import { Card, Col, Container, Jumbotron, Row } from "react-bootstrap";
+import {  Col, Container, Jumbotron, Row } from "react-bootstrap";
 import "./ProjectSection.scss";
 
 const projects = [

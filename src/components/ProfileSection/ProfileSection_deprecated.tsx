@@ -2,11 +2,9 @@ import React from "react";
 import { Row, Col, Container, Jumbotron, Image as Img } from "react-bootstrap";
 import "./ProfileSection.scss";
 import logo from '../../assets/logo192.png'
-const styles = {
-  h1: {
-    fontSize: "4rem",
-  },
-};
+
+
+
 const ProfileSection: React.FC = () => {
   return (
     <Container fluid className="profileSection">

@@ -34,30 +34,32 @@ const ProfileSection_test: React.FC = () => {
                   <p>
                      Aspiring Full-Stack software Developer with a background in
                      Microbiology and Genetics. Clear understanding of Front and Back End
-                     Development using Node.js, Express.js, React, .Net MySQL, and MongoDB
-                     databases. Excellent at self-teaching and motivated to learn, grow,
-                     and excel in tech industry.
+                     Development using Node.js, Express.js, React, and .Net. Motivated to
+                     learn, grow, and excel in tech industry.
                   </p>
-                  <hr></hr>
-                  <Col className="social">
-                     <h2>Follow me at: </h2>
-                     <a href="https://www.github.com/smg061">
-                        <i className="fa fa-github fa-2x "></i>
-                     </a>
-                     <a href="https://www.linkedin.com/in/santos-gonzalez-060a09186/">
-                        <i className="fa fa-linkedin fa-2x"></i>
-                     </a>
-                  </Col>
-                  <Col>
-                     <Button
-                        as="a"
-                        className="button"
-                        download="santos_gonzalez_resume.docx"
-                        href="https://smg061.github.io/react-portfolio/gonzalez_resume_updated.docx"
-                     >
-                        <strong>Get my resume</strong>
-                     </Button>
-                  </Col>
+                  <Container id="social-and-resume">
+                     <Col>
+                        <Col sm className="social-links">
+                           <h2>Follow me at: </h2>
+                           <a href="https://www.github.com/smg061">
+                              <i className="fa fa-github fa-2x "></i>
+                           </a>
+                           <a href="https://www.linkedin.com/in/santos-gonzalez-060a09186/">
+                              <i className="fa fa-linkedin fa-2x"></i>
+                           </a>
+                        </Col>
+                        <Col className="resume-btn">
+                           <Button
+                              as="a"
+                              className="button"
+                              download="santos_gonzalez_resume.docx"
+                              href="https://smg061.github.io/react-portfolio/gonzalez_resume_updated.docx"
+                           >
+                              <strong>Get my resume</strong>
+                           </Button>
+                        </Col>
+                     </Col>
+                  </Container>
                </Col>
             </Row>
          </Jumbotron>
