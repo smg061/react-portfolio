@@ -19,7 +19,6 @@ function App() {
          </Container>
 
          <ProfileSection_test />
-         <hr></hr>
          <ServicesSection/>
          <ProjectSection />
          <Footer />

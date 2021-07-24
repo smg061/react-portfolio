@@ -26,12 +26,9 @@ const ProjectItem: React.FC<Props> = ({
             </a>
             <div className="postcard__text">
                <h1 className="postcard__title blue">
-                  <a href="#">{projectTitle}</a>
+                  {projectTitle}
                </h1>
                <div className="postcard__subtitle small">
-                  <time dateTime="2020-05-25 12:00:00">
-                     <i className="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
-                  </time>
                </div>
                <div className="postcard__bar"></div>
                <div className="postcard__preview-txt">{projectDescription}</div>

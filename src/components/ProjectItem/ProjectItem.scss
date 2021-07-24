@@ -10,12 +10,17 @@ $main-blue: #0076bd !default;
 $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
 $main-light-blue: rgba(152, 220, 236, 0.8);
 
-projectBody {
+.projectBody {
   font-family: "Baloo 2", cursive;
   font-size: 16px;
   color: #ffffff;
   text-rendering: optimizeLegibility;
   font-weight: initial;
+  i:hover {
+  animation: fadein;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
 }
 
 .dark {
@@ -53,11 +58,7 @@ a:hover {
     opacity: 1;
   }
 }
-i:hover {
-  animation: fadein;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
+
 i {
   margin-right: 5px;
 }
@@ -108,7 +109,7 @@ i {
   }
 
   .postcard__title {
-    font-size: 1.75rem;
+    font-size: 2rem!important;
   }
 
   .postcard__img {
@@ -144,6 +145,7 @@ i {
     text-overflow: ellipsis;
     text-align: justify;
     height: 100%;
+    margin-left: 5%;
   }
 
   .postcard__tagbox {

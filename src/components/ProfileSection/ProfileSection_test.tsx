@@ -29,7 +29,6 @@ const ProfileSection_test: React.FC = () => {
                </Col>
                <Col lg={{ span: 8 }} className="biographyCol">
                   <h2>
-                     {" "}
                      <strong>A little bit about me...</strong>
                   </h2>
                   <p>
@@ -39,9 +38,9 @@ const ProfileSection_test: React.FC = () => {
                      databases. Excellent at self-teaching and motivated to learn, grow,
                      and excel in tech industry.
                   </p>
+                  <hr></hr>
                   <Col className="social">
-                    <h2>Follow me at</h2>
-                    <hr></hr>
+                     <h2>Follow me at: </h2>
                      <a href="https://www.github.com/smg061">
                         <i className="fa fa-github fa-2x "></i>
                      </a>
@@ -56,7 +55,7 @@ const ProfileSection_test: React.FC = () => {
                         download="santos_gonzalez_resume.docx"
                         href="https://smg061.github.io/react-portfolio/gonzalez_resume_updated.docx"
                      >
-                        Get my resume
+                        <strong>Get my resume</strong>
                      </Button>
                   </Col>
                </Col>
